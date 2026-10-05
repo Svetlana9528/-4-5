@@ -18,7 +18,8 @@ int main() {
 
     double F = ch / zn;
 
-    printf("Результат F = %e (или %.8f)\n", F, F);
+    printf("Результат F = %e (или %.6f)\n", F, F);
 
     return 0;
 }
+//2,1e-3 10 и -3 2,7e-3
